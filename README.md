@@ -9,4 +9,4 @@ This repository contains code that can be used to train a neural network that ca
 6. Run the command: "python .\testing_nn.py" (exclude double quotes) to see how the model performs on a randomly generated testing sample.
 7. Repeat step 6 to check the model performance for different testing examples.
 
-Browse the folder named "Testing Demos" to see a demonstration of model performance for arbitrary initial solutions.
+Browse the files with names starting with "Demo" to see a demonstration of model performance for arbitrary initial solutions.
