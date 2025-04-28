@@ -1,5 +1,5 @@
-# temporal_evolution_prediction
-This repository contains code that can be used to train a neural network that can predict temporal evolution of non-linear partial differential equation solutions, specificallyt the 1D Burger's Equation. Files dedicated to data generation, pre-processing, and model testing are also present. Instructions to run this code locally are provided below.
+# TimeNetPDE
+TimeNetPDE is a neural network that can predict the solution of a time-dependent partial differential equation (PDE) at any time given its initial solution. It can work with both linear and non-linear PDEs. The current implementation uses the 1D Burger's Equation but the same framework can be used for any non-linear time-dependent PDE. Files dedicated to data generation, pre-processing, and model testing are also present. Instructions to run this code locally are provided below.
 
 1. Python 3.0 is required to utilize the code in this repository.
 2. Download all the files present in the repository and save them in a separate folder.
