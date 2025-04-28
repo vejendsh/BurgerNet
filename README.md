@@ -1,5 +1,7 @@
 # TimeNetPDE
-TimeNetPDE is a neural network that can predict the solution of a time-dependent partial differential equation (PDE) at any time given its initial solution. It can work with both linear and non-linear PDEs. The current implementation uses the 1D Burger's Equation but the same framework can be used for any non-linear time-dependent PDE. Files dedicated to data generation, pre-processing, and model testing are also present. Instructions to run this code locally are provided below.
+TimeNetPDE is a neural network that can predict the transient solution of a time-dependent partial differential equation (PDE) from its initial solution. It uses fourier transforms to condense the complex time domain features into simple frequency domain features for efficient processing. This framework works with any arbitrary linear or non-linear time-dependent PDE but the current project implements it on the 1D Burger's Equation.
+
+Files dedicated to data generation, pre-processing, and model testing are also present. Instructions to run this code locally are provided below.
 
 1. Python 3.0 is required to utilize the code in this repository.
 2. Download all the files present in the repository and save them in a separate folder.
