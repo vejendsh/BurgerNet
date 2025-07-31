@@ -1,5 +1,5 @@
-# BurgerNet
-BurgerNet is a neural network that can predict the transient solution of 1D periodic Burger's Equation for any arbitrary initital condition and viscosity. It uses fourier transforms to condense the complex time domain features into simple frequency domain features for efficient processing. This framework works with any arbitrary linear or non-linear time-dependent PDE but the current project implements it on the 1D periodic Burger's Equation.
+# Burger_pred
+Burger_pred is a neural network that can predict the transient solution of 1D periodic Burger's Equation for any arbitrary initital condition and viscosity. It uses fourier transforms to condense the complex time domain features into simple frequency domain features for efficient processing. This framework works with any arbitrary linear or non-linear time-dependent PDE but the current project implements it on the 1D periodic Burger's Equation.
 
 Files dedicated to data generation, pre-processing, and model testing are also present. Instructions to run this code locally are provided below.
 
